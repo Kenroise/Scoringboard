@@ -3,6 +3,7 @@ body {
     color: white;
     border: 5px solid black;
     border-radius: 10px;
+    background: #0369A1;
                                    
 }
 
@@ -10,7 +11,7 @@ body {
     display: flex;
     justify-content: space-around;
     text-align: center;
-    background: #0369A1;
+   
   
   
     
@@ -62,10 +63,8 @@ button {
 	border-radius: 25px;
 	font-family: "CursedTimer", sans-serif;
 	background-color: #9F9FEE;
+    margin-top: 3px;
     
-}
-.reset {
-    background: #0369A1;
 }
 
 
