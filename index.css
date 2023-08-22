@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    color: white;
+    border: 5px solid black;
+    border-radius: 10px;
+                                   
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    background: #0369A1;
+  
+  
+    
+}
+
+button {
+  font-family: 'Cursed Timer ULiL', sans-serif;
+  background: ;
+  margin: 0 auto;
+  padding: 0 10px;
+  border-radius: 5px;
+  border: 1px solid black;
+  Height: 30px
+
+}
+#home-score {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+
+#guest-score {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+
+#home-away {
+    font-family: 'Cursed Timer ULiL', sans-serif;
+    background: #0a0001;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 120px;
+    margin: 20px;
+}
+
+#reset-btn{
+    display: block;
+	height: 40px;
+	width: 150px;
+	font-size: 1rem;
+	border: 3px solid #1B244A;
+	border-radius: 25px;
+	font-family: "CursedTimer", sans-serif;
+	background-color: #9F9FEE;
+    
+}
+.reset {
+    background: #0369A1;
+}
+
+
+#reset-btn:hover{
+	transform: scale(1.1);
+	cursor: pointer;
+}
